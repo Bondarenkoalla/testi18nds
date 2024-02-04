@@ -1,0 +1,12 @@
+.newsPage {
+    padding-top: 90px;
+
+    &__title {
+        margin-bottom: 32px;
+        text-align: left;
+    }
+
+    @media (min-width: 1100px) {
+        padding-top: 160px;
+    }
+}

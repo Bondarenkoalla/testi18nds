@@ -1,0 +1,16 @@
+.successMessage {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: #030303;
+    padding: 20px;
+    border-radius: 0px 16px 16px 16px;
+    transition: all 0.3s ease-out;
+    font-family: $font-family-second;
+    font-weight: 600;
+
+    &_hidden {
+        transform: translateX(100%);
+    }
+}

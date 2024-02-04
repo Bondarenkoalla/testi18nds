@@ -1,0 +1,42 @@
+[
+    {
+        "img": "review.png",
+        "heading": "What makes your design awesome?",
+        "data": "12 December, 2024",
+        "readingTime": "5",
+        "text": "The search results page was filled with my question’s exact words, repeated across site after site — websites for law firms, posts on forums, ads for creepy lookup tools — but the answer to my actual question was harder to find. At the top of the results page on my phone, Google offered two featured snippets of information quoting different websites.",
+        "theme": "Bitcoin, Crypto"
+    },
+    {
+        "img": "review.png",
+        "heading": "Exploring the Future of Technology",
+        "data": "15 December, 2024",
+        "readingTime": "8",
+        "text": "As we stand on the brink of a new technological era, the possibilities seem limitless. From artificial intelligence to space exploration, the future holds promises that were once thought impossible. In this article, we delve into the exciting prospects that await us.",
+        "theme": "Management"
+    },
+    {
+        "img": "review.png",
+        "heading": "Unlocking the Secrets of the Universe",
+        "data": "18 December, 2024",
+        "readingTime": "10",
+        "text": "Embark on a journey through the cosmos as we unravel the mysteries of the universe. From the smallest particles to the vastness of space, join us in this exploration of the unknown and discover the wonders that lie beyond our comprehension.",
+        "theme": "Money"
+    },
+    {
+        "img": "review.png",
+        "heading": "The Rise of Sustainable Living",
+        "data": "20 December, 2024",
+        "readingTime": "6",
+        "text": "In a world grappling with environmental challenges, the concept of sustainable living has gained prominence. Explore the initiatives and innovations that are shaping a greener future for our planet and learn how you can contribute to the movement.",
+        "theme": "Gambling"
+    },
+    {
+        "img": "review.png",
+        "heading": "Navigating the World of Virtual Reality",
+        "data": "22 December, 2024",
+        "readingTime": "7",
+        "text": "Step into the immersive realm of virtual reality and witness the transformative impact it is having on various industries. From gaming to healthcare, virtual reality is changing the way we experience and interact with the digital world.",
+        "theme": "Law"
+    }
+]

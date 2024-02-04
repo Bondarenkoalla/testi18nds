@@ -1,0 +1,29 @@
+.cartBorder {
+    border-radius: 36px;
+    border: 2px solid rgba(255, 92, 1, 0.18);
+    background: rgba(0, 0, 0, 0.52);
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.22), 0px 0px 84px 0px rgba(255, 92, 1, 0.10) inset;
+    backdrop-filter: blur(8px);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: border 0.4s ease-out;
+
+    &:hover {
+        border: 2px solid rgba(255, 92, 1, 0.88);
+    }
+
+    &_red {
+        border-radius: 36px;
+        border: 2px solid rgba(255, 92, 1, 0.15);
+        background: radial-gradient(69.94% 58.47% at 50% 50%, rgba(255, 38, 24, 0.30) 0%, rgba(255, 92, 1, 0.00) 100%), rgba(255, 255, 255, 0.02);
+        box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(8px);
+    }
+
+    @media (min-width: 1200px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

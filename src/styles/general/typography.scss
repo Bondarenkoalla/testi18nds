@@ -1,0 +1,139 @@
+.typography {
+    margin: 0;
+    padding: 0;
+
+    &__centered {
+        text-align: center;
+    }
+
+    &__red {
+        color: $red;
+    }
+
+    &__orange {
+        color: $orange;
+    }
+
+
+    &__black {
+        color: $black;
+    }
+
+    &__neon {
+        color: $neon;
+    }
+
+    &__formTitle {
+        font-family: $font-family-main;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+
+        @media (min-width: 1400px) {
+            font-size: 48px;
+            line-height: 56px;
+        }
+    }
+
+    &__h1 {
+        color: $white;
+        text-align: center;
+        font-family: $font-family-main;
+        font-size: 44px;
+        line-height: 52px;
+        font-style: normal;
+        font-weight: 800;
+
+        @media (min-width: 1400px) {
+            line-height: 96px;
+            font-size: 104px;
+        }
+    }
+
+    &__h2 {
+        color: #FFF;
+        font-family: $font-family-main;
+        font-style: normal;
+        margin-bottom: 12px;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+
+        @media (min-width: 1400px) {
+            line-height: 72px;
+            font-size: 64px;
+        }
+    }
+
+    &__h3 {
+        text-align: center;
+        font-family: $font-family-main;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+
+        @media (min-width: 1400px) {
+            font-size: 48px;
+            line-height: 56px;
+        }
+    }
+
+    &__p {
+        font-family: $font-family-second;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+        @media (min-width: 1400px) {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    &__link {
+        color: $white;
+        text-align: left;
+        font-family: $font-family-second;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        text-decoration: none;     
+
+        @media (min-width: 1400px) {
+            text-align: center;
+        }
+    }
+
+    &__info {
+        color: $neon;
+        text-align: center;
+        font-family: $font-family-second;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+
+        @media (min-width: 1400px) {
+            font-size: 40px;
+            line-height: normal;
+        }
+    }
+
+    &__subtitle {
+        font-family: $font-family-main;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 28px;
+
+        @media (min-width: 1400px) {
+            line-height: 40px;
+            font-size: 32px;
+        }
+    }
+
+}

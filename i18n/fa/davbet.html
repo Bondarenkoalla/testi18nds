@@ -1,0 +1,586 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+  <title>DS partners Global Affiliate Сompany</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <base href="/" />
+</head>
+
+
+<body>
+  <div class="successMessage successMessage_hidden">Form submitted successfully!</div>
+  <div class="loader-wrapper">
+    <div class="loader-section">
+      <div class="loader__rotate">
+        <img class="loader__icon loader__icon_1  loader__icon_inside" src="./images/loader/Inside.svg" alt="">
+      </div>
+      <div class="loader__rotate loader__rotate_1">
+        <img class="loader__icon loader__icon_2 loader__icon_outside" src="./images/loader/outside.svg" alt="">
+      </div>
+      <div class="loader__rotate loader__rotate_2">
+        <img class="loader__icon loader__icon_3 loader__icon_outside2" src="./images/loader/outside2.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="modalw">
+    <div class="modalw__overlay"></div>
+    <div class="modalw__wrapper">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+            <form class="modalwForm form form__modal formGeneral">
+              <div class="d-flex justify-content-between">
+                <h3>Get in Touch</h3>
+                <img class="modalw__close" src="./images/cross.svg" alt="">
+              </div>
+              <div class="d-flex flex-column">
+                <label class="form__label" for="name">Name
+                  <input class="form__input" type="text" id="name" name="name" required>
+                  <p class="typography typography__red form__info">Can’t be blank</p>
+                </label>
+              </div>
+              <div class="d-flex flex-column flex-md-row">
+                <div class="form__wrapper">
+                  <label class="form__label" for="telegram">Telegram Nickname</label>
+                  <input class="form__input form__optinal telegram" placeholder="@" type="text" id="telegram"
+                    name="tg_field">
+                  <p class="typography typography__red form__info form__info_one">Please enter either Telegram or Skype
+                  </p>
+                </div>
+                <div class="form__wrapper">
+                  <label class="form__label" for="skype"><span class="form__label_span">or </span> Skype:</label>
+                  <input class="form__input form__optinal skype" placeholder="Enter Skype Address" type="text"
+                    id="skype" name="skype">
+                </div>
+              </div>
+              <div class="form__purpose">
+                <label class="form__label">Purpose</label>
+                <div class="d-flex">
+                  <label class="form__label form__label_radio" for="affiliateModal">
+                    <input class="form__radio" type="radio" id="affiliateModal" name="purpose" value="affiliateModal"
+                      checked>
+                    <span class="form__radioIcon"></span>
+                    For Affiliates
+                  </label>
+                  <label class="form__label form__label_radio" for="advertiseModal">
+                    <input class="form__radio" type="radio" id="advertiseModal" name="purpose" value="advertiseModal">
+                    <span class="form__radioIcon"></span>
+                    For Advertisers
+                  </label>
+                </div>
+              </div>
+              <div class="form__affiliates">
+                <label class="form__label">Traffic Source</label>
+                <div class="d-flex">
+                  <label class="form__label form__label_radio" for="affiliateTraf">
+                    <input class="form__radio" type="radio" id="affiliateTraf" name="source" value="affiliateTraf"
+                      checked>
+                    <span class="form__radioIcon"></span>
+                    Affiliate
+                  </label>
+                  <label class="form__label form__label_radio" for="mediaTraf">
+                    <input class="form__radio" type="radio" id="mediaTraf" name="source" value="mediaTraf">
+                    <span class="form__radioIcon"></span>
+                    Media
+                  </label>
+                  <label class="form__label form__label_radio" for="influenceTraf">
+                    <input class="form__radio" type="radio" id="influenceTraf" name="source" value="influenceTraf">
+                    <span class="form__radioIcon"></span>
+                    Influence
+                  </label>
+                </div>
+              </div>
+              <div class="form__advertisers">
+                <div class="d-flex flex-column flex-md-row">
+                  <div class="form__wrapper">
+                    <label class="form__label" for="location">Product Geolocation</label>
+                    <input class="form__input location" type="text" id="location" name="location">
+                    <p class="typography typography__red form__info">Can’t be blank</p>
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input email" placeholder="name@mail.com" type="email" id="email" name="email">
+                    <p class="typography typography__red form__info">Please enter a valid email address</p>
+                  </div>
+                </div>
+              </div>
+              <button class="button button_form button_thin button_fullWidthMobile button_regular" type="submit">Get in
+                Touch
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="navigationPanel">
+      <div class="navigationPanel__inner">
+        <a class="navigationPanel__wrapper typography typography__link" href="">Home</a>
+        <div class="navigationPanel__wrapper">
+          <p class="typography typography__link">
+            Network
+          </p>
+          <ul class="navigationPanel__sublist">
+            <li class="navigationPanel__dropdownLink">
+              <a class="typography typography__link scrollLink" href="#affiliates">For
+                Affiliates</a>
+            </li>
+            <li class="navigationPanel__dropdownLink">
+              <a class="typography typography__link scrollLink" href="#advertisers">For
+                Advertisers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigationPanel__wrapper">
+          <p class="typography typography__link dropbtn">
+            Our Products
+          </p>
+          <ul class="navigationPanel__sublist">
+            <li class="navigationPanel__dropdownLink">
+              <a class="typography typography__link" href="/davbet">Davbet</a>
+            </li>
+          </ul>
+        </div>
+        <a class="navigationPanel__wrapper typography typography__link scrollLink" href="#careers">Careers</a>
+        <a class="navigationPanel__wrapper typography typography__link scrollLink" href="#news">News</a>
+        <a class="navigationPanel__wrapper typography typography__link scrollLink" href="#contacts">Contacts</a>
+        <h3 class="navigationPanel__contacts">Contacts</h3>
+        <ul class=" navigationPanel__contactsList">
+          <Li class="contact__item">
+            <a class="contact__link" href="">
+              <img class="contact__icon" src="./images/Instagram.svg" alt="">
+              Instagram
+            </a>
+          </Li>
+          <Li class="contact__item">
+            <a class="contact__link" href="">
+              <img class="contact__icon" src="./images/telegram.svg" alt="">
+              Telegram
+            </a>
+          </Li>
+          <Li class="contact__item">
+            <a class="contact__link" href="">
+              <img class="contact__icon" src="./images/linkedIn.svg" alt="">
+              LinkedIn
+            </a>
+          </Li>
+          <Li class="contact__item">
+            <a class="contact__link" href="">
+              <img class="contact__icon" src="./images/email.svg" alt="">
+              Email
+            </a>
+          </Li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__overlay"></div>
+    </div>
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__menu burger-btn" id="burgerBtn">
+          <div class="line"></div>
+          <div class="line shorter"></div>
+        </div>
+        <a href="/">
+          <img class="header__logo" src="./images/logo.png" alt="">
+        </a>
+        <div class="header__navigation">
+          <a class="header__link typography typography__link" href="/">Home</a>
+          <div class="header__link header__dropdown">
+            <p class="typography typography__link dropbtn">
+              Network
+              <img class="header__dropdown" src="./images/drop-down.svg" alt="">
+            </p>
+            <div class="header__dropdownContent dropdown-content">
+              <a class="header__dropdownLink scrollLink" href="#affiliates">For Affiliates</a>
+              <a class="header__dropdownLink scrollLink" href="#advertisers">For Advertisers</a>
+            </div>
+          </div>
+          <div class="header__link header__dropdown">
+            <p class="typography typography__link dropbtn">Our Products
+              <img class="header__dropdown" src="./images/drop-down.svg" alt="">
+            </p>
+            <div class="header__dropdownContent dropdown-content">
+              <a class="header__dropdownLink" href="/davbet">Davbet</a>
+            </div>
+          </div>
+          <a class="header__link typography typography__link scrollLink" href="#careers">Careers</a>
+          <a class="header__link typography typography__link scrollLink" href="#news">News</a>
+          <a class="header__link typography typography__link scrollLink" href="#contacts">Contacts</a>
+        </div>
+        <button class="buttonModalw button_thin header__button button">Get in Touch</button>
+        <div class="header__lang">
+          <p class="header__langActive typography">EN</p>
+          <ul class="header__langList">
+            <li class="header__langItem typography">UA</li>
+            <li class="header__langItem typography">EN</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="davbetSection">
+    <div class="container">
+      <div class="davbetSection__background">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="davbetSection__info typography typography__centered">
+              <p class="typography">
+                Introducing
+              </p>
+              <img class="davbetSection__davbet" src="./images/davbet.png" alt="">
+            </div>
+          </div>
+          <p class="davbetSection__subtitle col-8 col-lg-12 typography typography__info typography__centered">Your
+            Ultimate All-Inclusive Betting Destination!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="optionsSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="cartBorder optionsSection__card">
+            <img class="optionsSection__icon" src="./images/casino.svg" alt="">
+            <p class="typography optionsSection__title">Casino Slots</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="cartBorder optionsSection__card">
+            <img class="optionsSection__icon" src="./images/ball.svg" alt="">
+            <p class="typography optionsSection__title">Sports Betting</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="cartBorder optionsSection__card">
+            <img class="optionsSection__icon" src="./images/betting.svg" alt="">
+            <p class="typography optionsSection__title">eSports Betting</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-3">
+          <div class="cartBorder optionsSection__card optionsSection__card_mini">
+            <img class="optionsSection__icon optionsSection__icon_small" src="./images/plane.svg" alt="">
+            <p class="typography optionsSection__title optionsSection__title_small">Diverse Gaming Library</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-3">
+          <div class="cartBorder optionsSection__card optionsSection__card_mini">
+            <img class="optionsSection__icon optionsSection__icon_small" src="./images/star1.svg" alt="">
+            <p class="typography optionsSection__title optionsSection__title_small">Live Casino</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-3">
+          <div class="cartBorder optionsSection__card optionsSection__card_mini">
+            <img class="optionsSection__icon optionsSection__icon_small" src="./images/tv.svg" alt="">
+            <p class="typography optionsSection__title optionsSection__title_small">TV Games</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-3">
+          <div class="cartBorder optionsSection__card optionsSection__card_mini">
+            <img class="optionsSection__icon optionsSection__icon_small" src="./images/games.svg" alt="">
+            <p class="typography optionsSection__title optionsSection__title_small">Virtual Games</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <p class="optionsSection__info col-12 col-lg-6">As a comprehensive betting platform, we offer you a
+          dynamic mix of
+          <span class="optionsSection__info_bold">
+            sports, casino, live casino, cyber sports and virtual sports - all under one virtual roof.
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="partnersSection">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h3 class="partnersSection__title col-12 typography typography__h3 typography__centered">
+          Davbet Partners
+        </h3>
+      </div>
+    </div>
+    <div class="partnersSection__splide splide" id="splide-list-partners">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide partnersSection__slide">
+            <img class="partnersSection__logo" src="./images/logos/pop.png" alt="">
+          </li>
+          <li class="splide__slide partnersSection__slide">
+            <img class="partnersSection__logo" src="./images/logos/inova.png" alt="">
+          </li>
+          <li class="splide__slide partnersSection__slide">
+            <img class="partnersSection__logo" src="./images/logos/aviator.png" alt="">
+          </li>
+          <li class="splide__slide partnersSection__slide">
+            <img class="partnersSection__logo" src="./images/logos/pascal.png" alt="">
+          </li>
+          <li class="splide__slide partnersSection__slide">
+            <img class="partnersSection__logo" src="./images/logos/amatic.png" alt="">
+          </li>
+          <li class="splide__slide partnersSection__slide">
+            <img class="partnersSection__logo" src="./images/logos/faster.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="trafficSection background">
+    <div class="container">
+      <div class="row">
+        <h3 class="trafficSection__title typography typography__h3">We're on the Hunt for Traffic Partners</h3>
+      </div>
+      <ul class="trafficSection__list row">
+        <li class="col-12 col-md-4 col-lg-4 mb-3">
+          <div class="cartBorder cartBorder_red trafficSection__item">
+            <img class="trafficSection__icon" src="./images/affiliate.svg" alt="">
+            <p class="trafficSection__text typography">Affiliate</p>
+          </div>
+        </li>
+        <li class="col-12 col-md-4 col-lg-4 mb-3">
+          <div class="cartBorder cartBorder_red trafficSection__item">
+            <img class="trafficSection__icon" src="./images/media.svg" alt="">
+            <p class="trafficSection__text typography">Media</p>
+          </div>
+        </li>
+        <li class="col-12 col-md-4 col-lg-4 mb-3">
+          <div class="cartBorder cartBorder_red trafficSection__item">
+            <img class="trafficSection__icon" src="./images/influence.svg" alt="">
+            <p class="trafficSection__text typography">Influence</p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+          <h3 class="typography typography__formTitle seventhSection__title">Get in Touch</h3>
+          <p class="typography typography__p typography__red seventhSection__subtitle">Leave your contact and an
+            bizdev
+            manager will find an exclusive offer especially for you</p>
+        </div>
+        <div class="col-12 col-lg-5">
+          <form class="form affiliateForm">
+            <div class="d-flex flex-column">
+              <label class="form__label" for="name">Name</label>
+              <input class="form__input" type="text" id="name" name="name" required>
+              <p class="typography typography__red form__info">Can’t be blank</p>
+            </div>
+            <div class="d-flex flex-column flex-md-row">
+              <div class="form__wrapper">
+                <label class="form__label" for="telegram">Telegram Nickname</label>
+                <input class="form__input form__optinal telegram" placeholder="@" type="text" id="telegram"
+                  name="tg_field">
+                <p class="typography typography__red form__info form__info_one">Please enter either Telegram or Skype
+                </p>
+              </div>
+              <div class="form__wrapper">
+                <label class="form__label" for="skype"><span class="form__label_span">or </span> Skype:</label>
+                <input class="form__input form__optinal skype" placeholder="Enter Skype Address" type="text" id="skype"
+                  name="skype">
+              </div>
+            </div>
+            <label class="form__label">Traffic Source</label>
+            <div class="d-flex">
+              <label class="form__label form__label_radio" for="affiliate">
+                <input class="form__radio" type="radio" id="affiliate" name="source" value="affiliate" checked>
+                <span class="form__radioIcon"></span>
+                Affiliate
+              </label>
+              <label class="form__label form__label_radio" for="media">
+                <input class="form__radio" type="radio" id="media" name="source" value="media">
+                <span class="form__radioIcon"></span>
+                Media
+              </label>
+              <label class="form__label form__label_radio" for="influence">
+                <input class="form__radio" type="radio" id="influence" name="source" value="influence">
+                <span class="form__radioIcon"></span>
+                Influence
+              </label>
+            </div>
+            <button class="button button_thin button_fullWidthMobile button_regular" type="submit">Get in Touch</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="videoSection container">
+    <div class="row justify-content-center">
+      <h3 class="videoSection__title col-12 typography__h3">About DavBet</h3>
+      <div class=" col-12 col-lg-10">
+        <video poster="./images/poster.png" class="videoSection__video" width="100%">
+          <source src="./images/DavBet.mp4" type="video/mp4" />     
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="paymentsSection">
+    <div class="container">
+    
+      <h3 class="paymentsSection__title typography__h3">Available payment methods</h3>
+    </div>
+    <div class="paymentsSection__splide splide" id="splide-list-payments">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/santander.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/pix.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/visa.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/fulgur.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/tether.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/bitcoin.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/trc20.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/fasttoken.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/binance.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/ber20.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/litecoin.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/tron.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/banco.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/bradesco.png" alt="">
+          </li>
+          <li class="splide__slide paymentsSection__slide">
+            <img class="paymentsSection__logo" src="./images/logos/caixa.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="contact" id="contacts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h2 class="contact__heading typography typography__centered typography__h2 col-12">
+            Contacts
+          </h2>
+          <ul class="col-12 contact__list">
+            <Li class="contact__item">
+              <a class="contact__link" target="_blank"
+                href="https://instagram.com/dspartners.pro?igshid=NGVhN2U2NjQ0Yg==">
+                <img class="contact__icon" src="./images/Instagram.svg" alt="">
+                Instagram
+              </a>
+            </Li>
+            <Li class="contact__item">
+              <a class="contact__link" target="_blank" href="https://t.me/+7V5bN_GO1kFlMmQy">
+                <img class="contact__icon" src="./images/telegram.svg" alt="">
+                Telegram
+              </a>
+            </Li>
+            <Li class="contact__item">
+              <a class="contact__link" target="_blank" href="">
+                <img class="contact__icon" src="./images/linkedIn.svg" alt="">
+                LinkedIn
+              </a>
+            </Li>
+            <Li class="contact__item">
+              <a class="contact__link" href=" mailto:cmo@dspartners.pro">
+                <img class="contact__icon" src="./images/email.svg" alt="">
+                Email
+              </a>
+            </Li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer__wrapper">
+        <img class="footer__logo" src="./images/logo.png" alt="">
+        <div class="footer__inner">
+          <h3 class="typography footer__heading">Global Affiliate Сompany</h3>
+          <p class="typography footer__info"> We create opportunities to grow your
+            <img class="footer__icon" src="./images/vector.svg" alt="">
+            gambling traffic
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav class="footer__navigation">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__link">
+            <a href="/">Home</a>
+          </li>
+          <li class="footer__link">
+            <a class="scrollLink" href="/#affiliates">
+              CPA Network
+              <ul class="footer__sublist">
+                <li>
+                  <a class="scrollLink" href="/#affiliates">For Affiliates</a>
+                </li>
+                <li>
+                  <a class="scrollLink" href="/#advertisers">For Advertisers </a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li class="footer__link">
+            <a href="/davbet">DavBet</a>
+          </li>
+          <li class="footer__link">
+            <a class="scrollLink" href="/#careers">Careers</a>
+          </li>
+          <li class="footer__link">
+            <a href="/news">News</a>
+          </li>
+          <li class="footer__link">
+            <a class="scrollLink" href="/#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <p class="footer__copyright">Copyright © 2024 DS Partners</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html> -->
+
+<span class="className">menu.items.dashboard</span>

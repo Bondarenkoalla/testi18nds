@@ -1,0 +1,74 @@
+.trafficSection {
+    padding-top: 24px;
+    margin-bottom: 72px;
+
+    @media (min-width: 1200px) {
+        padding: 100px 0;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+
+        @media (min-width: 1200px) {
+            margin-bottom: 48px;
+        }
+    }
+
+    &__list {
+        margin-bottom: 24px;
+
+        @media (min-width: 1200px) {
+            margin-bottom: 72px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        padding: 16px 24px;
+
+        @media (min-width: 768px) {
+            padding: 16px 12px;
+        }
+
+        @media (min-width: 992px) {
+            padding: 16px 24px;
+        }
+
+        @media (min-width: 1200px) {
+            flex-direction: column;
+            padding: 24px 32px;
+        }
+    }
+
+    &__icon {
+        height: 83px;
+        margin-right: 41px;
+
+        @media (min-width: 768px) {
+            margin-right: 5px;
+        }
+
+        @media (min-width: 992px) {
+            margin-right: 30px;
+        }
+
+        @media (min-width: 1200px) {
+            height: 166px;
+            margin-bottom: 16px;
+            margin-right: 8px;
+        }
+    }
+
+    &__text {
+        font-family: $font-family-second;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+
+        @media (min-width: 1200px) {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+}

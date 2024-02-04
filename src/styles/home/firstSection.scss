@@ -1,0 +1,108 @@
+.firstSection {
+    background-image: url('../images/background-mobile.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.34);
+    border-radius: 64px;
+    padding-top: 68px;
+    overflow: hidden;
+
+    @media (min-width: 1200px) {
+        padding-top: 120px;
+    }
+
+    @media (min-width: 768px) {
+        padding-bottom: 100px;
+        background: none;
+        border: none;
+    }
+
+    &__inner {
+        position: relative;
+        padding-top: 48px;
+        padding-bottom: 28px;
+
+        @media (min-width: 768px) {
+            background-image: url('../images/home-first-background.png');
+            border-radius: 64px;
+            background-size: cover;
+            padding-top: 84px;
+            padding-bottom: 94px;
+        }
+    }
+
+    &__decoration {
+        position: absolute;
+
+        &_1 {
+            width: 115px;
+            right: -10%;
+            top: 20%;
+
+            @media (min-width: 992px) {
+                width: 271px;
+                right: 0;
+                top: -27px;
+            }
+        }
+
+        &_2 {
+            bottom: 17%;
+            right: 1%;
+            width: 72px;
+
+            @media (min-width: 992px) {
+                width: auto;
+                bottom: 34px;
+                right: 147px;
+            }
+        }
+
+        &_3 {
+            width: 27.472px;
+            left: 0%;
+
+            @media (min-width: 992px) {
+                width: auto;
+                left: 65px;
+            }
+        }
+
+        &_4 {
+            width: 95px;
+            bottom: 15%;
+            left: -12%;
+
+            @media (min-width: 992px) {
+                width: auto;
+                bottom: -69px;
+                left: 75px;
+            }
+        }
+
+    }
+
+    &__button {
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        margin-bottom: 88px;
+
+        @media (min-width: 992px) {
+            margin-bottom: 56px;
+        }
+    }
+
+    &__logo {
+        width: 168px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        display: block;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,45 @@
+.seventhSection {
+    padding-bottom: 22px;
+    position: relative;
+
+    &__decoration {
+        position: absolute;
+        display: none;
+
+        @media (min-width: 992px) {
+            display: block;
+        }
+
+        &_1 {
+            bottom: 2%;
+            right: 1%;
+            width: 120px;
+        }
+
+        &_2 {
+            left: 3%;
+            bottom: 8%;
+            width: 95px;
+        }
+    }
+
+    &__button {
+        margin-top: 8px;
+    }
+
+    @media (min-width: 1400px) {
+        padding-bottom: 72px;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+    }
+
+    &__subtitle {
+        margin-bottom: 16px;
+
+        @media (min-width: 1400px) {
+            margin-bottom: 0;
+        }
+    }
+}

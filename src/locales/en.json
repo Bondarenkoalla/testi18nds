@@ -1,0 +1,25 @@
+{
+  "header": {
+    "home": "Home",
+    "network": "Network",
+    "aff": "For Affiliates",
+    "adv": "For Advertisers",
+    "prod": "Our Products",
+    "davbet": "Davbet",
+    "careers": "Careers",
+    "news": "News",
+    "contacts": " Contacts"
+  },
+  "general": {
+    "get": "Get in Touch"
+  },
+  "button": {
+    "get": "Get in Touch",
+    "learn": "Learn More",
+    "all": "All News",
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  }
+}

@@ -1,0 +1,91 @@
+.secondSection {
+    padding-bottom: 50px;
+    padding-top: 48px;
+    background-image: url('../images/blur1.png');
+    background-size: contain;
+
+    @media (min-width: 1400px) {
+        padding-top: 0;
+    }
+
+    &__icon {
+        margin-right: 25px;
+        height: 24px;
+
+        @media (min-width: 1400px) {
+            height: 32px;
+            margin-right: 60px;
+        }
+    }
+
+    &__item {
+        transition: all 0.4s ease-out;
+        border-radius: 36px;
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        background: rgba(255, 255, 255, 0.02);
+        box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(8px);
+        padding: 16px 24px;
+        height: 100%;
+
+        @media (min-width: 1400px) {
+            padding: 24px 36px 32px 36px;
+        }
+
+        &:hover {
+            border: 2px solid rgba(255, 92, 1, 0.88);
+        }
+
+        &_small {
+            text-align: center;
+            align-items: center;
+            font-family: $font-family-main;
+            padding: 14px 32px;
+            display: flex;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 24px;
+
+            @media (min-width: 1400px) {
+                font-size: 32px;
+                line-height: 40px;
+                padding: 16px 32px;
+            }
+        }
+    }
+
+    &__title {
+        margin-bottom: 16px;
+
+        &_big {
+            font-family: $font-family-second;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 0;
+
+            @media (min-width: 1400px) {
+                font-size: 96px;
+                line-height: 100%;
+            }
+        }
+    }
+
+    &__subtitle {
+        &_big {
+            font-family: $font-family-main;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 40px;
+            margin-left: 8px;
+            margin-bottom: 0;
+
+            @media (min-width: 1400px) {
+                margin-left: 0;
+            }
+        }
+    }
+}

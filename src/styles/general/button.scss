@@ -1,0 +1,71 @@
+.button {
+    border-radius: 36px;
+    background: radial-gradient(260.1% 186.61% at 50% 50%, #FF2618 0%, #FF5C01 100%);
+    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease-out;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    font-family: $font-family-second;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 40px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    border: none;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+
+    &:hover {
+        box-shadow: 0 0 2em #d96200;
+    }
+
+    &::after {
+        content: url('../images/button-arrow.svg');
+        height: 32px;
+        margin-left: 8px;
+    }
+
+    &_regular {
+        &::after {
+            display: none;
+        }
+    }
+
+    &_thin {
+        padding: 12px 36px;
+        font-size: 16px;
+        line-height: 24px;
+        min-width: 172px;
+    }
+
+    &_form {
+        &:active {
+            background: #00AA63;
+        }
+
+        &:disabled, &_disabled {
+            background: #C4C4C4;
+            color: #8A8A8A;
+            pointer-events: none;
+        }
+    }
+
+    &_fullWidthMobile {
+        width: 100%;
+
+        @media (min-width: 576px) {
+            width: fit-content;
+        }
+    }
+
+    @media (min-width: 992px) {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 12px 32px 12px 36px;
+    }
+}

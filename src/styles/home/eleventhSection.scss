@@ -1,0 +1,30 @@
+.eleventhSection {
+    scroll-margin: 120px;
+    padding: 0 10px;
+
+    @media (min-width: 1400px) {
+        padding: 0;
+    }
+
+    &__inner {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__wrapper {
+        margin-bottom: 48px;
+        margin-top: 48px;
+
+        @media (min-width: 1400px) {
+            transform: translateX(50px);
+        }
+    }
+
+    &__heading {
+        margin-bottom: 24px;
+    }
+
+    &__button {
+        margin: 0 auto;
+    }
+}

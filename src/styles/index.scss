@@ -1,0 +1,58 @@
+//general
+@import './general/fonts';
+@import './general/variables';
+@import './general/typography';
+@import './general/main';
+@import './general/button';
+@import './general/animation';
+@import './general/background';
+@import './general/cartBorder';
+@import './general/modal';
+@import './general/successMessage';
+
+//preloader
+@import './general/preloader';
+
+//form
+@import './general/form';
+
+//header
+@import './header/header';
+@import './header/navigationPanel';
+
+//footer
+@import './footer/footer';
+@import './footer/contact';
+
+//home
+@import './home/firstSection';
+@import './home/secondSection';
+@import './home/thirdSection';
+@import './home/fourthSection';
+@import './home/fifthSection';
+@import './home/sixthSection';
+@import './home/seventhSection';
+@import './home/eightSection';
+@import './home/tenthSection';
+@import './home/eleventhSection';
+@import './news/articleSection';
+
+//davbet
+@import './davbet/optionsSection';
+@import './davbet/partnersSection';
+@import './davbet/trafficSection';
+@import './davbet/paymentsSection';
+@import './davbet/davbetSection';
+@import './davbet/videosection';
+@import './news/news';
+
+//news
+@import './news/newsSection';
+@import './news/newsPage';
+
+//splide
+@import '@splidejs/splide/css';
+
+//404
+@import 'spinner';
+@import 'notFoundPage';

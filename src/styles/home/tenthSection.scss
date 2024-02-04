@@ -1,0 +1,79 @@
+.tenthSection {
+    background: url('../images/elipse.png') center/cover no-repeat;
+    position: relative;
+    padding-bottom: 48px;
+    scroll-margin: 120px;
+
+    @media (min-width: 1400px) {
+        padding-bottom: 150px;
+    }
+
+    &__decoration {
+        display: none;
+        position: absolute;
+
+        @media (min-width: 1400px) {
+            display: block;
+        }
+
+        &_1 {
+            right: 1%;
+            top: -6%;
+            z-index: -1;
+        }
+
+        &_2 {
+            bottom: 11%;
+            right: 1%;
+        }
+
+        &_3 {
+            right: 3%;
+            top: 37%;
+        }
+
+        &_4 {
+            bottom: 7%;
+            left: 8%;
+        }
+
+        &_5 {
+            left: 2%;
+            top: 43%;
+        }
+
+        &_6 {
+            top: 10%;
+            left: 9%;
+        }
+    }
+
+    &__title {
+        margin-bottom: 48px;
+    }
+
+    &__heading {
+        margin-bottom: 8px;
+
+        @media (min-width: 1400px) {
+            margin-bottom: 24px;
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 16px;
+
+        @media (min-width: 1400px) {
+            margin-bottom: 24px;
+        }
+    }
+
+    &__image {
+        width: 100%;
+        margin-bottom: 24px;
+
+        @media (min-width: 1400px) {
+            margin-bottom: 0;
+        }
+    }
+}

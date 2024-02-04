@@ -1,0 +1,9 @@
+.background {
+    background-image: url('../images/triangle.png');
+    background-size: cover;
+    background-position: center;
+
+    &_blur {
+        background-image: url('../images/blur1.png');
+    }
+}

@@ -1,0 +1,23 @@
+.fifthSection {
+padding-bottom: 24px;
+
+@media (min-width: 1400px) {
+    padding-bottom: 72px;
+}
+    &__subtitle {
+        margin-bottom: 16px;
+
+        @media (min-width: 1400px) {
+            margin-bottom: 0;
+        }
+    }
+
+    &__title {
+        margin-bottom: 8px;
+
+        @media (min-width: 1400px) {
+            margin-bottom: 24px;
+        }
+    }
+
+}

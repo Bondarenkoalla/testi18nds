@@ -1,0 +1,20 @@
+.videoSection {
+    padding-bottom: 48px;
+
+    @media (min-width: 768px) {
+        padding-bottom: 100px;
+    }
+
+    &__video {
+        border-radius: 56px;
+        cursor: pointer;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 48px;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.modalw {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+
+    .modalwForm {
+        transform: translateX(-100vw);
+        transition: all 0.2s ease-out;
+    }
+
+    &_regular {
+        .form__hr {
+            display: none;
+        }
+    }
+
+    &_hr {
+        .form__affiliates {
+            display: none !important;
+        }
+
+        .form__advertisers {
+            display: none !important;
+        }
+
+        .form__purpose {
+            display: none !important;
+        }
+    }
+
+    &_is-open {
+        opacity: 1;
+        pointer-events: initial;
+        z-index: 101;
+
+        .modalwForm {
+            transform: translateX(0);
+        }
+    }
+
+    &__close {
+        width: 40px;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__overlay {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        pointer-events: none;
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    &__wrapper {
+        width: 100%;
+        height: 100vh;
+        overflow-y: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+}
